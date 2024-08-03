@@ -1,0 +1,12 @@
+.Button {
+    color: white !important;
+}
+
+.app-navbar {
+    background-color: black !important;
+}
+
+.nav-logo {
+    display: flex;
+    margin-left: 200px;
+}
