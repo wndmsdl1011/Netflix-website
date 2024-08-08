@@ -1,0 +1,18 @@
+.genre-section {
+    font-size: 1.5rem;
+    /* 텍스트 크기를 키움 */
+    padding: 0.5rem 1rem;
+    /* 패딩을 늘려 배지 크기 조정 */
+    margin-right: 0.5rem;
+}
+
+.title-area, .vote-area, .popularity-area, .overview-area, .tagline-area, .badge-area {
+    padding: 0.5rem 1rem;
+    /* 패딩을 늘려 배지 크기 조정 */
+    margin-right: 0.5rem;
+}
+
+.badge-area{
+    font-size: 1.3rem;
+}
+

@@ -18,7 +18,7 @@ const AppLayout = () => {
   }
   return (
     <div className="app-navbar">
-      <Navbar expand="lg" className="navbar" style={{backgroundColor:'black'}}>
+      <Navbar bg="black" data-bs-theme="dark" expand="lg">
         <Container fluid className="px-5" >
           <Navbar.Brand href="/" className="nav-logo"><img width={100} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj0jWPJ2dABPXDnURT5UrGTNzA5ONHfTO2qQ&s"/></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
