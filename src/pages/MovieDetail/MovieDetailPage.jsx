@@ -7,6 +7,7 @@ import Alert from "react-bootstrap/Alert";
 import { Container, Row, Col } from "react-bootstrap";
 import "./MovieDetailPage.style.css";
 import RecommendMovieSlide from "../Homepage/components/RecommendMovieSlide/RecommendMovieSlide";
+import ReviewSection from "./ReviewArea/ReviewArea";
 
 const fetchMovieDetail = async (id) => {
   const response = await api.get(`/movie/${id}`);
@@ -111,6 +112,7 @@ const MovieDetailPage = () => {
         </Col>
       </Row>
       <RecommendMovieSlide movie_id={id}/>
+      <ReviewSection movie_id={id}/>
     </Container>
     
   );
